@@ -1,1 +1,12 @@
 theme: jekyll-theme-hacker
+title: CherieLi
+email: lzycherie@qq.com
+description: CherieLi's Ideas & Blogs
+github_username: CherieLi
+permalink: /:year/:month/:day/:title/
+viewsourceroot: https://github.com/pfzuo/CherieLi.github.io/blob/master/
+newsourceroot: https://github.com/pfzuo/CherieLi.github.io/new/master
+duoshuo_shortname: CherieLi
+duoshuo_url: "http://CherieLi.duoshuo.com"
+markdown: kramdown
+port: 4001
