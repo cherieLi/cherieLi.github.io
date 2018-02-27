@@ -1,3 +1,10 @@
+---
+layout: post
+comments: true
+categories: C/C++ 
+
+---
+
 1. 尽量用const和inline, 而不用#define
 
 2. 尽量用iostream而不用stdio.h
