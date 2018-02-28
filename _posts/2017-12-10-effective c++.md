@@ -1,7 +1,10 @@
 ---
 layout: post
+title: "effective C++ 读书笔记"
+date: 2017-12-10 16:01:44
 comments: true
 categories: C/C++ 
+tags:读书笔记
 
 ---
 
