@@ -1,0 +1,46 @@
+---
+layout: page
+title: About
+permalink: /about/
+icon: heart
+type: page
+---
+
+* content
+{:toc}
+
+## 关于我
+
+<iframe src="https://githubbadge.appspot.com/gaohaoyang?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+
+现在就读于华中科技大学武汉光电国家研究中心，是计算机系统结构专业的一名硕士研究生，导师是[华宇](https://csyhua.github.io/csyhua/index.html)。
+本科是湖北大学计算机与信息工程学院，信息安全专业。
+
+研究方向：数据去重，NVM
+
+主要兴趣集中在C/C++研发以及信息安全。
+
+喜欢舞蹈，积极参加学校文艺晚会、元旦晚会等，学过体育舞蹈3年。
+
+喜欢简奥斯汀、八月长安等作家的书籍。
+
+*2017.12  获得2016-2017学年一等奖学金，社会活动积极分子
+		  华中科技大学第十八届科技节之“360杯”首届大学生网络攻防大赛优秀奖
+*2017.9 武汉光电国家实验室研究生会优秀部员
+*2016.6 毕业于湖北大学 计算机与信息工程学院
+		保研到华中科技大学武汉光电国家研究中心
+*2015.11 获得2014-2015学年国家奖学金
+*2015.5 第六届蓝桥杯湖北赛区C/C++程序设计大赛B组一等奖
+*2015.3 湖北省第21届外语翻译大赛英语非专业笔译组一等奖
+*2015.1 普通话水平测试等级证书二级甲等
+
+
+## 联系我
+* GitHub：[CherieLi](https://github.com/cherieLi)
+* email：lzycherie@qq.com
+* Weibo:[鸢尾楚楚](https://weibo.com/u/3795460443)
+* 微信公众号：鸢尾楚楚
+
+## Comments
+
+{% include comments.html %}
