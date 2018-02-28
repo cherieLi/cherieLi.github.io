@@ -2,28 +2,25 @@
 <html>
 
   {% include head.html %}
- <!--<script src="https://s11.cnzz.com/z_stat.php?id=1261499950&web_id=1261499950" language="JavaScript" type="hidden"></script>-->
-<script type="text/javascript">  var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan style='display:none;' id='cnzz_stat_icon_1261499950'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1261499950' type='text/javascript'%3E%3C/script%3E"));</script>
- <!--  <body data-spy="scroll" data-target="#myAffix"> -->
+
   <body>
 
     {% include header.html %}
 
-    <div id="main" class="container main">
-      {{ content }}
-    </div>
-
-    
-    <div id="top" data-toggle="tooltip" data-placement="left" title="back to top">
-      <a href="javascript:;">
-        <div class="arrow"></div>
-        <div class="stick"></div>
-      </a>
-    </div>
+        {{ content }}
 
     {% include footer.html %}
-
-    {% include newpost.html %}
-  
+    {% include backToTop.html %}
+    <script src="{{ " /js/main.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+    <script src="{{ " /js/smooth-scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+    <script type="text/javascript">
+      smoothScroll.init({
+        speed: 500, // Integer. How fast to complete the scroll in milliseconds
+        easing: 'easeInOutCubic', // Easing pattern to use
+        offset: 20, // Integer. How far to offset the scrolling anchor location in pixels
+      });
+    </script>
+    <!-- <script src="{{ " /js/scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
   </body>
+
 </html>
