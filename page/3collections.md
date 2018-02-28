@@ -13,7 +13,7 @@ type: page
 
 * [CTF](https://ctf-wiki.github.io/ctf-wiki)
 
-    CTF入门相关内容。
+    CTF比赛相关内容。
     
 * [tiny png](https://tinypng.com/)
 
