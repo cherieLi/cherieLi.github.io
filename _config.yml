@@ -10,4 +10,4 @@ duoshuo_shortname: CherieLi
 duoshuo_url: "http://CherieLi.duoshuo.com"
 markdown: kramdown
 port: 4001
-paginate: 1
+paginate: 5
