@@ -11,8 +11,6 @@ type: page
 
 ## 关于我
 
-<iframe src="https://githubbadge.appspot.com/gaohaoyang?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
-
 现在就读于华中科技大学武汉光电国家研究中心，是计算机系统结构专业的一名硕士研究生，导师是[华宇](https://csyhua.github.io/csyhua/index.html)。
 本科是湖北大学计算机与信息工程学院，信息安全专业。
 
