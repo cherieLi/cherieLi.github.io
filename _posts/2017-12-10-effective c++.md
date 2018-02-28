@@ -4,7 +4,7 @@ title: "effective C++ 读书笔记"
 date: 2017-12-10
 comments: true
 categories: C/C++ 
-
+tags: CherieLi
 ---
 
 1. 尽量用const和inline, 而不用#define
