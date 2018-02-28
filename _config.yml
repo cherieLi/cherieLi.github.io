@@ -1,5 +1,5 @@
-theme: jekyll-theme-hacker
 title: CherieLi
+brief-intro:Student
 email: lzycherie@qq.com
 description: CherieLi's Ideas & Blogs
 github_username: CherieLi
@@ -10,3 +10,4 @@ duoshuo_shortname: CherieLi
 duoshuo_url: "http://CherieLi.duoshuo.com"
 markdown: kramdown
 port: 4001
+paginate: 1
