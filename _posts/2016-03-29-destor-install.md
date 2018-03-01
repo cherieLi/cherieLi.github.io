@@ -3,14 +3,14 @@ layout: post
 title:  destor安装流程(ubuntu)
 date:   2016-03-29 09:35:45 +0800
 categories: linux
-tags: install
+tags: 安装
 author: CherieLi
 ---
 
 * content
 {:toc}
 
-点击下载[destor](https://github.com/cherieLi/destor)
+点击下载安装包[destor](https://github.com/cherieLi/destor)
 
 ## 安装步骤
 
