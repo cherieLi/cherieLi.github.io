@@ -14,12 +14,12 @@ author: CherieLi
 
 ## 安装步骤
 
-### 1.安装libssl, 否则后期会出现缺少“crypto”的错误
+ 1.安装libssl, 否则后期会出现缺少“crypto”的错误
 ```
 apt-get install libssl-dev
 ```
 
-### 2.安装glib, 否则后期会出现缺少“glib”的错误(我下载的是 glib-2.32.0)
+2.安装glib, 否则后期会出现缺少“glib”的错误(我下载的是 glib-2.32.0)
 然后在glib-2.32.0文件夹下依次执行
 ```
 ./config
@@ -27,34 +27,34 @@ make
 make install
 ```
 
-### 3.安装build essential, 否则后期会出现缺少“gcc”的错误
+3.安装build essential, 否则后期会出现缺少“gcc”的错误
 ```
 apt-get install build-essential
 ```
 
-### 4.安装zlib, 否则后期会出现缺少“zlib”的错误
+ 4.安装zlib, 否则后期会出现缺少“zlib”的错误
 ```
 apt-get install zlib1g.dev
 ```
 
-### 5.安装libffi, 否则后期会出现缺少“libffi”的错误
+ 5.安装libffi, 否则后期会出现缺少“libffi”的错误
 ```
 apt-get install libffi-dev.dev
 ```
 
-### 6.将/usr/local/include/glib-2.0和/usr/local/lib/glib-2.0/include下的所有文件复制到/usr/local/include下
+ 6.将/usr/local/include/glib-2.0和/usr/local/lib/glib-2.0/include下的所有文件复制到/usr/local/include下
 ```
 cp /usr/local/include/glib-2.0/* /usr/local/include/
 cp –r /usr/local/include/glib-2.0/ /usr/local/include/
 cp /usr/local/lib/glib-2.0/include/* /usr/local/include
 ```
 
-### 7.将/usr/local/lib下的libglib-2.0.so复制为libglib.so
+ 7.将/usr/local/lib下的libglib-2.0.so复制为libglib.so
 ```
 cp /usr/local/lib/libglib-2.0.so /usr/local/lib/libglib.so
 ```
 
-### 8.在destor文件夹下依次执行
+ 8.在destor文件夹下依次执行
 ```
 ./config
 make
