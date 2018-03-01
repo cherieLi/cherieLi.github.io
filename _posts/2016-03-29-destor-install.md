@@ -78,8 +78,8 @@ apt-get install gettext
 
 如果出现aclocal-1.14 is missing on your system
 解决办法见参考文献：
-http://blog.csdn.net/lusehu/article/details/6415213
-http://blog.csdn.net/wwt18946637566/article/details/46602305
+>http://blog.csdn.net/lusehu/article/details/6415213   
+>http://blog.csdn.net/wwt18946637566/article/details/46602305
 ```
 apt-get install autoconf
 apt-get install autoreconf -ivf
