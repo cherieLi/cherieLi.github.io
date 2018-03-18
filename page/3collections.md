@@ -25,7 +25,8 @@ type: page
     - 这个功能更强大一点，能清楚的区分出贪婪和懒惰正则。
 
 
-## 编程语言
+## 编程书籍
+* [Ebook](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books-zh.md)
 
 
 ## 优秀博客
