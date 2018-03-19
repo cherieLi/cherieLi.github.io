@@ -32,6 +32,8 @@ type: page
 ## 优秀博客
 * [MoreWindows博客目录(微软最有价值专家，原创技术文章152篇)](http://blog.csdn.net/morewindows/article/details/17488865)
 
+* [剑指offer(何海涛)](http://zhedahht.blog.163.com/)
+
 * Posix线程编程指南
   >[线程创建与取消](https://www.ibm.com/developerworks/cn/linux/thread/posix_threadapi/part1/index.html)  
   >[线程私有数据](https://www.ibm.com/developerworks/cn/linux/thread/posix_threadapi/part2/index.html)  
