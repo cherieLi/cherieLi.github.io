@@ -120,34 +120,34 @@ author: CherieLi
         ./build/ALPHA/gem5.opt ./configs/example/fs.py -n 4 --script=/home/lzy/gem5/gem5/parsec/canneal_4c_simsmall.rcS --caches --l2cache -F 5000000000
 	
 	得到如下结果：
-	Global frequency set at 1000000000000 ticks per second
-	warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
-	info: kernel located at: /home/lzy/gem5/gem5/full_system_images/system/binaries/vmlinux
-	Listening for system connection on port 3456
-	......
+        Global frequency set at 1000000000000 ticks per second
+        warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+        info: kernel located at: /home/lzy/gem5/gem5/full_system_images/system/binaries/vmlinux
+        Listening for system connection on port 3456
+        ......
 
 7. 新开一个窗口，使用telnet与gem5模拟系统进行交互
 
         telnet localhost 3456  
 	
 	得到如下结果：
-	......
-	PARSEC Benchmark Suite Version 2.1
-	[HOOKS] PARSEC Hooks Version 1.2
-	Threadcount: 4
-	10000 swaps per temperature step
-	start temperature: 2000
-	netlist filename: /parsec/install/inputs/canneal/100000.nets
-	number of temperature steps: 32
-	locs created
-	locs assigned
-	Just saw element: 100000
-	netlist created. 100000 elements.
-	[HOOKS] Entering ROI
-	[HOOKS] Leaving ROI
-	Final routing is: 9.27137e+07
-	[HOOKS] Total time spent in ROI: 0.072s
-	[HOOKS] Terminating
-	Done :D
+        ......
+        PARSEC Benchmark Suite Version 2.1
+        [HOOKS] PARSEC Hooks Version 1.2
+        Threadcount: 4
+        10000 swaps per temperature step
+        start temperature: 2000
+        netlist filename: /parsec/install/inputs/canneal/100000.nets
+        number of temperature steps: 32
+        locs created
+        locs assigned
+        Just saw element: 100000
+        netlist created. 100000 elements.
+        [HOOKS] Entering ROI
+        [HOOKS] Leaving ROI
+        Final routing is: 9.27137e+07
+        [HOOKS] Total time spent in ROI: 0.072s
+        [HOOKS] Terminating
+        Done :D
 
         
