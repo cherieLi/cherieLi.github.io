@@ -123,12 +123,13 @@ author: CherieLi
 	Global frequency set at 1000000000000 ticks per second
 	warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
 	info: kernel located at: /home/lzy/gem5/gem5/full_system_images/system/binaries/vmlinux
-	Listening for system connection on port <font color=#0000FF>3456</font>
+	Listening for system connection on port 3456
 	......
 
 7. 新开一个窗口，使用telnet与gem5模拟系统进行交互
 
         telnet localhost 3456  
+	
 	得到如下结果：
 	......
 	PARSEC Benchmark Suite Version 2.1
