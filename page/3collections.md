@@ -34,6 +34,8 @@ type: page
 
 * [剑指offer(何海涛)](http://zhedahht.blog.163.com/)
 
+* [Leetcode(Grandyang)](http://www.cnblogs.com/grandyang/)
+
 * Posix线程编程指南
   >[线程创建与取消](https://www.ibm.com/developerworks/cn/linux/thread/posix_threadapi/part1/index.html)  
   >[线程私有数据](https://www.ibm.com/developerworks/cn/linux/thread/posix_threadapi/part2/index.html)  
