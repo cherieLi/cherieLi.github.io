@@ -9,15 +9,6 @@ make install // 安装到/usr/bin 等文件下
 
 
 产生的缓存都在build目录下了
-
-
-# *******************************************************************
-# Copyright (C) Huawei Technologies, 2019
-# Created by Li Ziyi
-# Authors: Li Ziyi
-#
-# Build for HelloWorld
-# *******************************************************************/
 #1.最低版本号要求
 #cmake version
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
