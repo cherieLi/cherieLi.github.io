@@ -10,8 +10,8 @@ type: page
 {:toc}
 
 ## 关于我
-
-现在就读于华中科技大学武汉光电国家研究中心，是计算机系统结构专业的一名硕士研究生，导师是[华宇](https://csyhua.github.io/csyhua/index.html)。
+当前就职于华为
+研究生毕业于华中科技大学武汉光电国家研究中心，计算机系统结构专业，导师是[华宇](https://csyhua.github.io/csyhua/index.html)。
 本科是湖北大学计算机与信息工程学院，信息安全专业。
 
 研究方向：数据去重，NVM
