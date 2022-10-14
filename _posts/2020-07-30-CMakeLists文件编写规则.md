@@ -1,7 +1,14 @@
-CMakeLists文件编写规则
 
-[TOC]
+---
+layout: post
+title:  CMakeLists文件编写规则
+categories: linux
+tags: CMakeLists
+author: CherieLi
+---
 
+* content
+{:toc}
 
 
 文件名 CMakeLists.txt
