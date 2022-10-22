@@ -24,6 +24,8 @@ type: page
 * [在线正则表达式匹配](https://regex101.com/)
     - 这个功能更强大一点，能清楚的区分出贪婪和懒惰正则。
 
+* [linux工具快速教程](https://linuxtools-rst.readthedocs.io/zh_CN/latest/)
+
 
 ## 编程书籍
 * [Ebook](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books-zh.md)
