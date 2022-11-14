@@ -40,16 +40,8 @@ Iterations: 总迭代次数
 
 在benchmark里面，如果每个迭代会有一些额外的setup, 可能会需要在循环里面做。但是一般来说在benchmark时间统计里面把这部分去掉。有两个函数可以做这个事情：PauseTiming()和ResumeTiming()事实上在循环里面使用这两个函数，输出结果里面时间额外多了很多。
 
-Time是一次操作的用户时间
-CPU是一次操作的CPU时间
-
-
-
-
-
-
-
-
+Time是一次操作的用户时间  
+CPU是一次操作的CPU时间  
 
 ### 参考文档
 
