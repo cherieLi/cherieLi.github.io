@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  google bench
+title:  google benchmark
 categories: linux
 tags: linux
 author: CherieLi
