@@ -12,6 +12,10 @@ author: CherieLi
 
 点击下载安装包[destor](https://github.com/cherieLi/destor)
 
+https://github.com/fomy/destor  
+
+http://blog.csdn.net/zmxiangde_88/article/details/8024223  
+
 ## 安装步骤
 
  1.安装libssl, 否则后期会出现缺少“crypto”的错误
