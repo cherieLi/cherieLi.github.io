@@ -92,68 +92,61 @@ apt-get install autoreconf -ivf
 重新运行destor 就成功啦~
 
 
-Destor是一个数据去重评估平台
-1.基于容器的存储
-2.块级流水线
-3.固定大小的分开，基于内容的分块，近似文件级去重
-4.指纹索引 DDFS, Extreme Binning, Sparse Index, SiLo
-5.改写算法 CFL, CBR, CAP, HAR
-6.恢复算法 LRU，优化的替代算法，向前滚动组件
+Destor是一个数据去重评估平台  
+1.基于容器的存储  
+2.块级流水线  
+3.固定大小的分开，基于内容的分块，近似文件级去重  
+4.指纹索引 DDFS, Extreme Binning, Sparse Index, SiLo  
+5.改写算法 CFL, CBR, CAP, HAR  
+6.恢复算法 LRU，优化的替代算法，向前滚动组件  
 
-分块算法对应的文章：
-    a) A Low-bandwidth Network File System @ SOSP'02.
+分块算法对应的文章：  
+    a) A Low-bandwidth Network File System @ SOSP'02.  
 
-    b) A Framework for Analyzing and Improving Content-Based Chunking Algorithms @ HP technical report.
+    b) A Framework for Analyzing and Improving Content-Based Chunking Algorithms @ HP technical report.  
 
-    c) AE: An Asymmetric Extremum Content Defined Chunking Algorithm for Fast and Bandwidth-Efficient Data Deduplication @ IEEE Infocom'15.
+    c) AE: An Asymmetric Extremum Content Defined Chunking Algorithm for Fast and Bandwidth-Efficient Data Deduplication @ IEEE Infocom'15.  
 
-指纹索引对应的文章：
+指纹索引对应的文章：  
+    a) Avoiding the Disk Bottleneck in the Data Domain Deduplication File System @ FAST'08.  
 
+    b) Sparse Indexing: Large Scale, Inline Deduplication Using Sampling and Locality @ FAST'09.  
 
-    a) Avoiding the Disk Bottleneck in the Data Domain Deduplication File System @ FAST'08.
+    c) Extreme Binning: Scalable, Parallel Deduplication for Chunk-based File Backup @ MASCOTS'09.  
 
-    b) Sparse Indexing: Large Scale, Inline Deduplication Using Sampling and Locality @ FAST'09.
+    d) SiLo: A Similarity-Locality based Near-Exact Deduplicatin Scheme with Low RAM Overhead and High Throughput @ USENIX ATC'11.  
 
-    c) Extreme Binning: Scalable, Parallel Deduplication for Chunk-based File Backup @ MASCOTS'09.
+    e) Building a High-Performance Deduplication System @ USENIX ATC'11.  
 
-    d) SiLo: A Similarity-Locality based Near-Exact Deduplicatin Scheme with Low RAM Overhead and High Throughput @ USENIX ATC'11.
+    f) Block Locality Caching for Data Deduplication @ SYSTOR'13.  
 
-    e) Building a High-Performance Deduplication System @ USENIX ATC'11.
+    g) The design of a similarity based deduplication system @ SYSTOR'09.  
 
-    f) Block Locality Caching for Data Deduplication @ SYSTOR'13.
+分片：  
+    a) Chunk Fragmentation Level: An Effective Indicator for Read Performance Degradation in Deduplication Storage @ HPCC'11.  
 
-    g) The design of a similarity based deduplication system @ SYSTOR'09.
+    b) Assuring Demanded Read Performance of Data Deduplication Storage with Backup Datasets @ MASCOTS'12.  
 
-分片：
+    c) Reducing impact of data fragmentation caused by in-line deduplication @ SYSTOR'12.  
 
+    d) Improving Restore Speed for Backup Systems that Use Inline Chunk-Based Deduplication @ FAST'13.  
 
-    a) Chunk Fragmentation Level: An Effective Indicator for Read Performance Degradation in Deduplication Storage @ HPCC'11.
+    e) Accelerating Restore and Garbage Collection in Deduplication-based Backup Systems via Exploiting Historical Information @ USENIX ATC'14.  
 
-    b) Assuring Demanded Read Performance of Data Deduplication Storage with Backup Datasets @ MASCOTS'12.
+    f) Reducing Fragmentation for In-line Deduplication Backup Storage via Exploiting Historical Information and Cache Knowledge @ IEEE TPDS.  
 
-    c) Reducing impact of data fragmentation caused by in-line deduplication @ SYSTOR'12.
+恢复算法：  
+    a) A Study of Replacement Algorithms for a Virtual-Storage Computer @ IBM Systems Journal'1966.  
 
-    d) Improving Restore Speed for Backup Systems that Use Inline Chunk-Based Deduplication @ FAST'13.
+    b) Improving Restore Speed for Backup Systems that Use Inline Chunk-Based Deduplication @ FAST'13.  
 
-    e) Accelerating Restore and Garbage Collection in Deduplication-based Backup Systems via Exploiting Historical Information @ USENIX ATC'14.
+    c) Accelerating Restore and Garbage Collection in Deduplication-based Backup Systems via Exploiting Historical Information @ USENIX ATC'14.  
 
-    f) Reducing Fragmentation for In-line Deduplication Backup Storage via Exploiting Historical Information and Cache Knowledge @ IEEE TPDS.
+垃圾回收：  
 
-恢复算法：
+    a) Building a High-Performance Deduplication System @ USENIX ATC'11.  
 
+    b) Cumulus: Filesystem Backup to the Cloud @ FAST'09.   
 
-    a) A Study of Replacement Algorithms for a Virtual-Storage Computer @ IBM Systems Journal'1966.
-
-    b) Improving Restore Speed for Backup Systems that Use Inline Chunk-Based Deduplication @ FAST'13.
-
-    c) Accelerating Restore and Garbage Collection in Deduplication-based Backup Systems via Exploiting Historical Information @ USENIX ATC'14.
-
-垃圾回收：
-
-
-    a) Building a High-Performance Deduplication System @ USENIX ATC'11.
-
-    b) Cumulus: Filesystem Backup to the Cloud @ FAST'09.
-
-    c) Accelerating Restore and Garbage Collection in Deduplication-based Backup Systems via Exploiting Historical Information @ USENIX ATC'14.
+    c) Accelerating Restore and Garbage Collection in Deduplication-based Backup Systems via Exploiting Historical Information @ USENIX ATC'14.  
 
