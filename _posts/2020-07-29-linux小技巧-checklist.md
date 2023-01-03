@@ -166,3 +166,6 @@ lsof -n |grep deleted
 解决办法：
 找到对应的进程号，kill掉即可；
 https://blog.csdn.net/allway2/article/details/102546095
+
+#### 参考文档
+https://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html
