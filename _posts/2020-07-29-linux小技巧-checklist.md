@@ -124,6 +124,8 @@ ALL显示所有5个开关
 ```
 taskset -pc [thread_id/process_id]
 ```
+https://blog.csdn.net/test1280/article/details/87991302  
+
 
 #### 检查磁盘是否存在
 
