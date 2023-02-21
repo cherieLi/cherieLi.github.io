@@ -42,10 +42,6 @@ g++ main.cpp -std=c++11 -pthread
 
 ### 2.1 线程池模型
 
-![线程池模型](D:\学习\C++\线程池模型.png)
-
-![img](file:///C:/Users/l00515066/AppData/Roaming/eSpace_Desktop/UserData/l00515066/imagefiles/75DF0843-7A70-48F8-BC0E-545A8DB44094.png)
-
 上一节中，我们认识了线程池模型，同时还回顾了 C++11 的诸多关于并发编程相关的新特性。本节我们正式开始实现这个只有100行的线程池。
 
 ### 2.2 测试驱动
