@@ -1,0 +1,19 @@
+首先 gdb 发现 core 在了 SliceStoreDebug::debugCtrl 函数，错误是传入的参数 ctrl_attr 不合法。
+
+可能是 ctrl_attr 被其他线程修改，没有太多思路，所以想着缩小一下排查范围。
+
+验证了一圈，发现 rpc 模式下是 OK 的，只有 ishardmock 下会出现，看下 CMakeLists.txt 是什么区别。
+
+主要是引入的 ishardmock 或者 ishardrpc 的区别。
+
+所以开始怀疑是 ishardmock.cc 的问题。
+
+之后对比了一下 slicestoreinterface.cc 中与 sliceStoreDebugCtrl 类似的函数，譬如 getSliceInfo。发现他们也是使用 submit 到线程池的方式调用，唯一的不同在于他们不会将 ctrl_attr 作为参数传入到线程池中执行的函数中。
+
+这里灵感出现，应该是这个参数对象在线程池执行的过程中自身已经被销毁。
+
+回到 ishardmock.cc，ctrl_attr 是定义的局部变量。
+
+这里把 ctrl_attr 传进去后，这个线程是直接返回的。
+
+所以在线程池中执行 debugCtrl 函数时，ctrl_attr 这个对象很有可能会被释放了。
