@@ -172,6 +172,7 @@ https://blog.csdn.net/allway2/article/details/102546095
 #### 节点是否重启
 ```
 last reboot
+who -b
 ```
 
 #### 参考文档
