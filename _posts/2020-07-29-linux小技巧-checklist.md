@@ -174,6 +174,35 @@ https://blog.csdn.net/allway2/article/details/102546095
 last reboot
 who -b
 ```
+#### 安装软件
+```
+///安装GCC7、GDB（使用devtoolset，会自动升级centos内核版本号）
+sudo yum install -y centos-release-scl
+sudo yum install -y devtoolset-7-gcc.x86_64 devtoolset-7-gcc-c++.x86_64 devtoolset-7-gdb
+echo "source /opt/rh/devtoolset-7/enable" >> /etc/profile
+
+
+///安装llvm,clang（使用llvm-toolset，会自动升级centos内核版本号）
+sudo yum install -y llvm-toolset-7
+echo "source /opt/rh/llvm-toolset-7/enable" >> /etc/profile
+
+///source使环境变量生效
+source /etc/profile
+gcc --version
+g++ --version
+make --version
+
+gdb --version
+
+///如果编译还报clang找不到，可尝试修改/etc/ld.so.conf文件为如下内容：
+
+include ld.so.conf.d/*.conf
+/usr/local/lib
+/usr/local/lib64
+/usr/lib64/clang-private
+
+修改完成后执行ldconfig
+```
 
 #### 参考文档
 https://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html
