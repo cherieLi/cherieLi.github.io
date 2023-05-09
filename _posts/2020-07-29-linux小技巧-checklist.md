@@ -202,6 +202,21 @@ include ld.so.conf.d/*.conf
 /usr/lib64/clang-private
 
 修改完成后执行ldconfig
+
+///安装网络工具，并配置DNS
+sudo yum install net-tools -y
+
+///安装代码检查工具
+yum install -y cppcheck valgrind cloc lcov
+
+///更新yum源
+cd /etc/yum.repos.d，备份原来的yum源
+wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
+wget -O /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-7.repo
+yum clean all
+yum makecache
+yum repolist
+
 ```
 
 #### 参考文档
