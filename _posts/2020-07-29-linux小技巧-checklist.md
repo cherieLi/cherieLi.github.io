@@ -57,8 +57,12 @@ cat /proc/meminfo
 
 ```
 df -h /目录
+
 查找空间都被谁占用了，一般在磁盘空间不足时使用。
-du -sk ./*|sort -n
+du -sk ./*|sort -n  
+
+查找文件夹里面的文件数量，在OS报警inode超标时检查。
+find / -xdev -printf '%h\n' | sort | uniq -c | sort -k 1 -n
 ```
 
 #### 查看LVM卷组信息
