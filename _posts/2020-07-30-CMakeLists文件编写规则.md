@@ -1484,3 +1484,7 @@ TabWidth: 4
  ```
  find src test -type f \( -name '*.h' -or -name '*.hpp' -or -name '*.cpp' -or -name '*.c' -or -name '*.cc' \) -print | xargs clang-format -style=file -i
  ```
+
+ 参考文档：
+ https://blog.csdn.net/csdnwxhw/article/details/120263641  
+ 
