@@ -13,3 +13,6 @@ https://k.sina.com.cn/article_6376489720_17c1182f802001e66n.html?from=ent&subch=
 https://www.cnblogs.com/Kempff/p/12705455.html  
 
 https://www.cnblogs.com/laonicc/p/11978132.html  
+
+数据库基本概念  
+https://blog.csdn.net/Sebastien23/article/details/120615471  
