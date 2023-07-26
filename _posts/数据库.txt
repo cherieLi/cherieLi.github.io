@@ -16,3 +16,7 @@ https://www.cnblogs.com/laonicc/p/11978132.html
 
 数据库基本概念  
 https://blog.csdn.net/Sebastien23/article/details/120615471  
+
+权限管理
+系统级权限，对象级权限，用户定义角色，系统内置角色
+
