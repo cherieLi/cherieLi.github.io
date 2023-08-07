@@ -22,3 +22,5 @@ https://blog.csdn.net/Sebastien23/article/details/120615471
 https://blog.51cto.com/u_12826294/3093689 
 
 
+https://developer.aliyun.com/article/783672 
+物化视图  
