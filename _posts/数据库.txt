@@ -24,7 +24,8 @@ https://blog.51cto.com/u_12826294/3093689
 权限  
 https://blog.51cto.com/u_12826294/3093689  
 
-
+显示凌乱串行问题及column、pagesize、linesize的设定
+https://blog.csdn.net/qq_41675254/article/details/85226126  
 
 https://developer.aliyun.com/article/783672 
 物化视图  
