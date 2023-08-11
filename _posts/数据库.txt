@@ -19,7 +19,11 @@ https://blog.csdn.net/Sebastien23/article/details/120615471
 
 权限管理
 系统级权限，对象级权限，用户定义角色，系统内置角色
-https://blog.51cto.com/u_12826294/3093689 
+https://blog.51cto.com/u_12826294/3093689   
+
+权限  
+https://blog.51cto.com/u_12826294/3093689  
+
 
 
 https://developer.aliyun.com/article/783672 
