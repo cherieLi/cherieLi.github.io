@@ -36,6 +36,9 @@ https://www.cnblogs.com/a-du/p/9723162.html
 https://blog.csdn.net/tigerjibo/article/details/8279183  
 unlikely  
 
+物化视图  
+https://blog.csdn.net/m0_37253968/article/details/120408558
+
 【初级、中级及高级职称考试提醒】
 各位领导、同事好：
        2023年度下半年计算机技术与软件专业技术资格水平考试及 2023年度全国通信专业技术人员职业水平考试将于11月进行。请各位同事踊跃报考。现将有关事项告知如下：
