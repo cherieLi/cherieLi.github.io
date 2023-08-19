@@ -30,9 +30,6 @@ https://blog.csdn.net/qq_41675254/article/details/85226126
 https://developer.aliyun.com/article/783672 
 物化视图  
 
-https://www.cnblogs.com/a-du/p/9723162.html  
-算命  
-
 https://blog.csdn.net/tigerjibo/article/details/8279183  
 unlikely  
 
