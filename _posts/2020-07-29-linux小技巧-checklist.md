@@ -226,5 +226,10 @@ yum repolist
 
 ```
 
+批量创建文件夹
+```
+mkdir -p $DATA/{archive,config,databasefiles,diagnose/{metadata,hardmachine},instance,local_filesystem,log/{run,trace,audit,alarm,alert,listener}}
+```
+
 #### 参考文档
 https://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html
