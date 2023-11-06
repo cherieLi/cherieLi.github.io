@@ -230,6 +230,7 @@ yum repolist
 ```
 mkdir -p $DATA/{archive,config,databasefiles,diagnose/{metadata,hardmachine},instance,local_filesystem,log/{run,trace,audit,alarm,alert,listener}}
 ```
+addr2line这个工具，转换堆栈，有时候比实际堆栈差一行。
 
 #### 参考文档
 https://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html
