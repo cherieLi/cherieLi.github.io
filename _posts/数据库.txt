@@ -59,6 +59,9 @@ https://blog.csdn.net/m0_37253968/article/details/120408558
 
 Linux 如何使用 fail2ban 防止 SSH 暴力破解  
 
+系统架构设计笔记：https://www.jianshu.com/p/d0ccef0a6e6f  
+
+
 工作内容：  
 需求开发（需求调研，需求设计，需求评审，需求编码，需求问题单处理）  
 
