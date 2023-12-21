@@ -7,7 +7,8 @@ author: CherieLi
 ---
 
 * content
-{:toc}
+{:toc}  
+
 lsof -i 显示系统端口使用情况
 
 ipcs -m 查看共享内存
@@ -231,6 +232,12 @@ yum repolist
 mkdir -p $DATA/{archive,config,databasefiles,diagnose/{metadata,hardmachine},instance,local_filesystem,log/{run,trace,audit,alarm,alert,listener}}
 ```
 addr2line这个工具，转换堆栈，有时候比实际堆栈差一行。
+
+#### 系统监视
+进行系统监视通常有三种方式：
+一是通过系统本身提供的命令，如UNIX/Linux系统中的ps, last等；  
+二是通过系统记录文件查阅系统在特定时间内的运行状态；  
+三是集成命令、文件记录和可视化技术的监控工具，如Windows的Perform。  
 
 #### 参考文档
 https://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html
