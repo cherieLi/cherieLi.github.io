@@ -84,6 +84,9 @@ iostat -kdx 1
 
 ```
 top -p `pidof 进程名` -Hb -n 1
+
+查看线程数
+ps -ux | grep '进程名' |grep -v 'grep'|awk '{print $2}' |xargs ps -Tp | grep '线程前缀'| wc -l
 ```
 
 #### 操作系统页大小查看
