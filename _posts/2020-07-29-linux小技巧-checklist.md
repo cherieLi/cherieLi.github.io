@@ -236,6 +236,11 @@ mkdir -p $DATA/{archive,config,databasefiles,diagnose/{metadata,hardmachine},ins
 ```
 addr2line这个工具，转换堆栈，有时候比实际堆栈差一行。
 
+#### 查看负载
+```
+uptime
+正常的系统load是个位数才是正常了，超过100的都可以认为是系统有瓶颈了
+```
 #### 系统监视
 进行系统监视通常有三种方式：
 一是通过系统本身提供的命令，如UNIX/Linux系统中的ps, last等；  
