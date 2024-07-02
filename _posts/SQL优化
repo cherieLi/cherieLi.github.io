@@ -8,3 +8,6 @@ sql是一种声明式语言
 5.索引
 6.表存储设计（堆表、json、redis）
 7.上线测试
+
+
+sql语法图：https://www.cnblogs.com/smyx/p/12850385.html  
