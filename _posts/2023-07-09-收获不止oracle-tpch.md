@@ -377,3 +377,5 @@ startup;
 shutdown immediate;
 远程连接：sqlplus system/oracle@192.168.*.*:端口号/oracledb
 ```
+
+oracle unwrap解密工具： https://www.codecrete.net/UnwrapIt/
