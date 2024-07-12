@@ -1,1 +1,5 @@
 ====ERROR: AddressSanitizer: stack-use-after-scope on address
+
+
+明确stack-use-after-scope的含义：地址擦除器错误：使用超出范围的堆栈内存
+内存泄漏是因为这个indexName的作用域在这个if里面，但是在if外有使用
