@@ -93,3 +93,6 @@ https://site.douban.com/145723/  逻辑学
 
 技术项目  
 https://hongyitong.github.io/  有意思
+
+https://support.huaweicloud.com/dws/index.html  华为云数据仓库服务  
+
