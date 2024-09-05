@@ -17,7 +17,7 @@ crontab -l 查看定时任务
 
 lscpu 查看cpu相关信息
 
-ps ux 查看现有进程  
+ps ux 查看现有进程  (处理端口号占用情况)
 
 cat /dev/random| od -x查看并产生真正的随机数
 
