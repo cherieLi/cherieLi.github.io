@@ -377,7 +377,7 @@ startup;
 shutdown immediate;
 远程连接：sqlplus system/oracle@192.168.*.*:端口号/oracledb
 ```
-
+oracle 连接sys用户：rlwrap sqlplus / as sysdba  
 oracle unwrap解密工具： https://www.codecrete.net/UnwrapIt/  
 
 date format设置显示时分秒
@@ -385,6 +385,38 @@ alter session set date_format = 'yyyy-mm-dd hh24:mi:ss'
 
 https://www.cnblogs.com/wcwen1990/p/6656618.html  oracle执行计划  
 
-oracle 连接sys用户：rlwrap sqlplus / as sysdba  
+
+###### tpcc
+```
+TPCC  是由 TPC（Transaction Processing Performance Council） 非盈利组织推出的一套基准测试程序，主要用于OLTP类应用的测试；
+
+       它由一系列的 OLTP 工作流组成，包括查询，更新及队列式小批量事务在内的广泛数据库功能。它模拟了一个典型的 OLTP 应用环境中的活动，这些活动由一系列复杂的事务组成。TPC-C 工作流应该具备以下特性：
+
+适当复杂的 OLTP 事务
+在线和离线事务执行模型
+多用户
+适当的系统和应用执行时间
+大量的磁盘输入和输出
+事务完整性（ACID）
+随机的数据访问
+数据库由各种大小，属性和关系的表组成。
+
+TPC-C 系统需要处理的交易有以下五种：
+
+New-Order： 客户输入一笔新的订货交易
+Payment：更新客户账户余额以反应其支付状况
+Delivery：发货（批处理交易）
+Order-Status：查询客户最近交易的状态
+Stock-Level：查询仓库库存状况，以便能够及时补货。
+各个类型交易默认配置比例参数（共100%）
+
+newOrderWeight = 45
+paymentWeight = 43
+orderStatusWeight = 4
+deliveryWeight = 4
+stockLevelWeight = 4
+流量指标（Throughput,简称tpmC)：按照TPC组织的定义，流量指标描述了系统在执行支付操作、订单状态查询、发货和库存状态查询这4种交易的同时，每分钟可以处理多少个新订单交易。所有交易的响应时间必须满足TPC-C测试规范的要求，且各种交易数量所占的比例也应该满足TPC-C测试规范的要求。在这种情况下，流量指标值越大说明系统的联机事务处理能力越高。
+按照TPC组织的定义，流量指标描述了系统在执行支付操作、订单状态查询、发货和库存状态查询这4种交易的同时，每分钟可以处理多少个新订单交易。所有交易的响应时间必须满足TPC-C测试规范的要求，且各种交易数量所占的比例也应该满足TPC-C测试规范的要求。在这种情况下，流量指标值越大说明系统的联机事务处理能力越高。
+```
 
 
