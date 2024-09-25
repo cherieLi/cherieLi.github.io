@@ -376,6 +376,10 @@ sqlplus / as sysdba
 startup;
 shutdown immediate;
 远程连接：sqlplus system/oracle@192.168.*.*:端口号/oracledb
+
+重启数据库：
+shutdown immediate
+startup
 ```
 oracle 连接sys用户：rlwrap sqlplus / as sysdba  
 oracle unwrap解密工具： https://www.codecrete.net/UnwrapIt/  
@@ -419,4 +423,13 @@ stockLevelWeight = 4
 按照TPC组织的定义，流量指标描述了系统在执行支付操作、订单状态查询、发货和库存状态查询这4种交易的同时，每分钟可以处理多少个新订单交易。所有交易的响应时间必须满足TPC-C测试规范的要求，且各种交易数量所占的比例也应该满足TPC-C测试规范的要求。在这种情况下，流量指标值越大说明系统的联机事务处理能力越高。
 ```
 
-
+#### oracle其他
+```
+Oracle 里面有个叫做spfile的东西，就是动态参数文件，里面设置了Oracle 的各种参数。所谓的动态，就是说你可以在不关闭数据库的情况下，
+更改数据库参数，记录在spfile里面。更改参数的时候，有4种scope选项。scope就是范围
+scope=spfile 仅仅更改spfile里面的记载，不更改内存，也就是不立即生效，而是等下次数据库启动生效。有一些参数只允许用这种方法更改
+修改sysdate的格式就只能使用这种方式。
+scope=memory 仅仅更改内存，不改spfile。也就是下次启动就失效了
+scope=both 内存和spfile都更改
+不指定scope参数，等同于scope=both.
+```
