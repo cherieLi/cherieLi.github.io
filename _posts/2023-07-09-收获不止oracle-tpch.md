@@ -382,3 +382,7 @@ oracle unwrap解密工具： https://www.codecrete.net/UnwrapIt/
 
 date format设置显示时分秒
 alter session set date_format = 'yyyy-mm-dd hh24:mi:ss'  
+
+https://www.cnblogs.com/wcwen1990/p/6656618.html  oracle执行计划  
+
+
