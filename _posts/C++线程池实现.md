@@ -398,3 +398,8 @@ private:
 代码来源：https://github.com/progschj/ThreadPool
 
 本节实验中所涉及代码均选自此开源项目，根据项目作者的许可协议，允许他人使用、分发、改进此代码，但不能保持原样(AS-IS)的声明为他人创作。因此，本次实验中所有代码在原项目基础上进行了适当的修改，但未修改部分仍受到版权保护，原作者 Jakob Progsch, Václav Zeman 保留所有权利。
+
+
+python线程池：
+https://www.jianshu.com/p/b9b3d66aa0be  
+
