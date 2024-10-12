@@ -94,5 +94,16 @@ https://site.douban.com/145723/  逻辑学
 技术项目  
 https://hongyitong.github.io/  有意思
 
+
+
+
+
+
+
+
+######################信创
+http://www.itsec.gov.cn/aqkkcp/cpgg/202409/t20240930_194299.html  
+
+
 https://support.huaweicloud.com/dws/index.html  华为云数据仓库服务  
 
