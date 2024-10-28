@@ -432,4 +432,8 @@ scope=spfile 仅仅更改spfile里面的记载，不更改内存，也就是不�
 scope=memory 仅仅更改内存，不改spfile。也就是下次启动就失效了
 scope=both 内存和spfile都更改
 不指定scope参数，等同于scope=both.
+
+三权分立：
+
+内置admin用户（DBA，SECURITY_ADMIN, AUDIT_ADMIN)，内置对应角色。
 ```
