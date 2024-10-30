@@ -436,4 +436,22 @@ scope=both 内存和spfile都更改
 三权分立：
 
 内置admin用户（DBA，SECURITY_ADMIN, AUDIT_ADMIN)，内置对应角色。
+
+**！搜索时，按以下顺序：**
+
+0. 搜索用户是否有ALL权限
+
+1. 搜索用户的system role
+
+2. 搜索用户的object role
+
+3. 搜索在此session上缓存的用户的normal role
+
+	- 搜索normal role具有的system privilege
+
+	- 搜索normal role具有的object privilege
+
+4. 搜索用户的normal role被级联授权的其他role，其他role也按步骤3进行搜索
+
+ **任一步骤找到权限后，终止，如果搜索完所有的role仍无，则认定没有权限**
 ```
