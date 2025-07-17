@@ -1,3 +1,14 @@
+#### 收获不止oracle
+https://github.com/liangjingbin99/shouhuo/tree/master    
+
+
+identity列  
+https://www.gpsos.es/2022/02/columnas-identity-oracle-12/    
+https://www.cnblogs.com/xqzt/p/4455149.html  
+
+权限：三权分立    
+角色，系统，对象    
+
 #### 命名规范
 表以t_为前缀；  
 视图以v_为前缀；  
